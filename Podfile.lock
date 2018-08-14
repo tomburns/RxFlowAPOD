@@ -1,0 +1,43 @@
+PODS:
+  - Nuke (7.3)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxNuke (0.7):
+    - Nuke (~> 7.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - RxTest (4.2.0):
+    - RxSwift (~> 4.0)
+
+DEPENDENCIES:
+  - R.swift
+  - RxCocoa
+  - RxNuke
+  - RxSwift
+  - RxTest
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nuke
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxNuke
+    - RxSwift
+    - RxTest
+
+SPEC CHECKSUMS:
+  Nuke: 3680b7186b18f84a5e9e283bfce4357bfd70fdf9
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxNuke: 8be1b71b08b238608834e5ffac597bcafab1e66f
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  RxTest: 8da864c0ee47534f586ff18fb0c7e5b2f1fe5023
+
+PODFILE CHECKSUM: 1a301287388db8274004acf40a3bb1b3a4740f5f
+
+COCOAPODS: 1.5.3

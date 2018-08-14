@@ -23,3 +23,22 @@ class ViewController: UIViewController {
 
 }
 
+import RxSwift
+
+extension ObservableType where E == Date {
+    func mapToSequentialDates(byAdding components: DateComponents,
+                              desiredCount: Int,
+                              on calendar: Calendar = .current) -> Observable<[Date]> {
+
+        return map { startDate in
+            var dates: [Date] = [startDate]
+
+            while dates.count < desiredCount,
+                let nextDate = calendar.date(byAdding: components, to: dates.last!) {
+                    dates.append(nextDate)
+            }
+
+            return dates
+        }
+    }
+}

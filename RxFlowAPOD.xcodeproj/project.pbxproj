@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E76EB1FCDCB2FE1EAF06BE /* Pods_RxFlowAPODTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA420AEF06BFDE88669CEDE /* Pods_RxFlowAPODTests.framework */; };
 		1F2F12EA211BEEB40012B809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F12E9211BEEB40012B809 /* AppDelegate.swift */; };
 		1F2F12EC211BEEB40012B809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F12EB211BEEB40012B809 /* ViewController.swift */; };
 		1F2F12EF211BEEB40012B809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F12ED211BEEB40012B809 /* Main.storyboard */; };
@@ -14,6 +15,21 @@
 		1F2F12F4211BEEB70012B809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F12F3211BEEB70012B809 /* Assets.xcassets */; };
 		1F2F12F7211BEEB70012B809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F12F5211BEEB70012B809 /* LaunchScreen.storyboard */; };
 		1F2F1302211BEEB70012B809 /* RxFlowAPODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F1301211BEEB70012B809 /* RxFlowAPODTests.swift */; };
+		1F3BBDE8211C93EC005D1913 /* DateGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDE7211C93EC005D1913 /* DateGenerationTests.swift */; };
+		1F3BBDEA211C9B49005D1913 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDE9211C9B49005D1913 /* AppCoordinator.swift */; };
+		1F3BBDED211C9D0B005D1913 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDEC211C9D0B005D1913 /* R.generated.swift */; };
+		1F3BBDEF211CA6FE005D1913 /* DateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDEE211CA6FE005D1913 /* DateListViewController.swift */; };
+		1F3BBDF1211CA70B005D1913 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDF0211CA70B005D1913 /* PictureViewController.swift */; };
+		1F3BBDF5211CAD1D005D1913 /* APODCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDF4211CAD1D005D1913 /* APODCoordinator.swift */; };
+		1F3BBDF8211CB358005D1913 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDF7211CB358005D1913 /* SettingsCoordinator.swift */; };
+		1F3BBDFB211CB4C0005D1913 /* APOD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3BBDFA211CB3C7005D1913 /* APOD.storyboard */; };
+		1F3BBDFC211CB4C3005D1913 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3BBDF9211CB3C4005D1913 /* Settings.storyboard */; };
+		1F3BBE00211D05A7005D1913 /* DateListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BBDFF211D05A7005D1913 /* DateListViewModel.swift */; };
+		1FA9D7E62121AF4200B64F79 /* PictureDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9D7E52121AF4200B64F79 /* PictureDetailCoordinator.swift */; };
+		1FA9D7E82121AF7A00B64F79 /* DateListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9D7E72121AF7A00B64F79 /* DateListCoordinator.swift */; };
+		1FA9D7EA2121C90000B64F79 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9D7E92121C90000B64F79 /* PictureViewModel.swift */; };
+		1FA9D7EE2121CB2F00B64F79 /* PhotoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9D7ED2121CB2F00B64F79 /* PhotoInteractor.swift */; };
+		B94801F2AE0929100B53F75D /* Pods_RxFlowAPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2C211255A2D47A3E6F26B /* Pods_RxFlowAPOD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA420AEF06BFDE88669CEDE /* Pods_RxFlowAPODTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowAPODTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2F12E6211BEEB40012B809 /* RxFlowAPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxFlowAPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2F12E9211BEEB40012B809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2F12EB211BEEB40012B809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +55,25 @@
 		1F2F12FD211BEEB70012B809 /* RxFlowAPODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxFlowAPODTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2F1301211BEEB70012B809 /* RxFlowAPODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFlowAPODTests.swift; sourceTree = "<group>"; };
 		1F2F1303211BEEB70012B809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3BBDE7211C93EC005D1913 /* DateGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGenerationTests.swift; sourceTree = "<group>"; };
+		1F3BBDE9211C9B49005D1913 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1F3BBDEC211C9D0B005D1913 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		1F3BBDEE211CA6FE005D1913 /* DateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListViewController.swift; sourceTree = "<group>"; };
+		1F3BBDF0211CA70B005D1913 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		1F3BBDF4211CAD1D005D1913 /* APODCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODCoordinator.swift; sourceTree = "<group>"; };
+		1F3BBDF7211CB358005D1913 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		1F3BBDF9211CB3C4005D1913 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = /Users/tburns/code/RxFlowAPOD/RxFlowAPOD/Settings.storyboard; sourceTree = "<absolute>"; };
+		1F3BBDFA211CB3C7005D1913 /* APOD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = APOD.storyboard; path = /Users/tburns/code/RxFlowAPOD/RxFlowAPOD/APOD.storyboard; sourceTree = "<absolute>"; };
+		1F3BBDFF211D05A7005D1913 /* DateListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListViewModel.swift; sourceTree = "<group>"; };
+		1FA9D7E52121AF4200B64F79 /* PictureDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailCoordinator.swift; sourceTree = "<group>"; };
+		1FA9D7E72121AF7A00B64F79 /* DateListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListCoordinator.swift; sourceTree = "<group>"; };
+		1FA9D7E92121C90000B64F79 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		1FA9D7ED2121CB2F00B64F79 /* PhotoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInteractor.swift; sourceTree = "<group>"; };
+		49690BA14F24394A14379BC5 /* Pods-RxFlowAPOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowAPOD.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxFlowAPOD/Pods-RxFlowAPOD.release.xcconfig"; sourceTree = "<group>"; };
+		505854A85CE26E218E7A4A13 /* Pods-RxFlowAPODTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowAPODTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxFlowAPODTests/Pods-RxFlowAPODTests.release.xcconfig"; sourceTree = "<group>"; };
+		78E1296351AF2B7D9F884139 /* Pods-RxFlowAPODTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowAPODTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxFlowAPODTests/Pods-RxFlowAPODTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E2C211255A2D47A3E6F26B /* Pods_RxFlowAPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowAPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46D80FC9713237CDA4B17CD /* Pods-RxFlowAPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowAPOD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxFlowAPOD/Pods-RxFlowAPOD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94801F2AE0929100B53F75D /* Pods_RxFlowAPOD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E76EB1FCDCB2FE1EAF06BE /* Pods_RxFlowAPODTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +102,8 @@
 				1F2F12E8211BEEB40012B809 /* RxFlowAPOD */,
 				1F2F1300211BEEB70012B809 /* RxFlowAPODTests */,
 				1F2F12E7211BEEB40012B809 /* Products */,
+				4F40E661256AA9EC034D12FF /* Pods */,
+				FA099096AF5B06B9ED20A278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +119,13 @@
 		1F2F12E8211BEEB40012B809 /* RxFlowAPOD */ = {
 			isa = PBXGroup;
 			children = (
-				1F2F12E9211BEEB40012B809 /* AppDelegate.swift */,
-				1F2F12EB211BEEB40012B809 /* ViewController.swift */,
 				1F2F12ED211BEEB40012B809 /* Main.storyboard */,
+				1F2F12E9211BEEB40012B809 /* AppDelegate.swift */,
+				1F3BBDE9211C9B49005D1913 /* AppCoordinator.swift */,
+				1F3BBDF2211CACFE005D1913 /* APOD */,
+				1F3BBDF3211CAD04005D1913 /* Settings */,
+				1F3BBDEC211C9D0B005D1913 /* R.generated.swift */,
+				1F2F12EB211BEEB40012B809 /* ViewController.swift */,
 				1F2F12F3211BEEB70012B809 /* Assets.xcassets */,
 				1F2F12F5211BEEB70012B809 /* LaunchScreen.storyboard */,
 				1F2F12F8211BEEB70012B809 /* Info.plist */,
@@ -95,8 +139,86 @@
 			children = (
 				1F2F1301211BEEB70012B809 /* RxFlowAPODTests.swift */,
 				1F2F1303211BEEB70012B809 /* Info.plist */,
+				1F3BBDE7211C93EC005D1913 /* DateGenerationTests.swift */,
 			);
 			path = RxFlowAPODTests;
+			sourceTree = "<group>";
+		};
+		1F3BBDF2211CACFE005D1913 /* APOD */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9D7EC2121CB2100B64F79 /* Model */,
+				1FA9D7EB2121CB1B00B64F79 /* View */,
+			);
+			path = APOD;
+			sourceTree = "<group>";
+		};
+		1F3BBDF3211CAD04005D1913 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1F3BBDF9211CB3C4005D1913 /* Settings.storyboard */,
+				1F3BBDF7211CB358005D1913 /* SettingsCoordinator.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1F3BBDFD211D03A3005D1913 /* DateList */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9D7E72121AF7A00B64F79 /* DateListCoordinator.swift */,
+				1F3BBDEE211CA6FE005D1913 /* DateListViewController.swift */,
+				1F3BBDFF211D05A7005D1913 /* DateListViewModel.swift */,
+			);
+			path = DateList;
+			sourceTree = "<group>";
+		};
+		1F3BBDFE211D055D005D1913 /* Picture Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9D7E52121AF4200B64F79 /* PictureDetailCoordinator.swift */,
+				1F3BBDF0211CA70B005D1913 /* PictureViewController.swift */,
+				1FA9D7E92121C90000B64F79 /* PictureViewModel.swift */,
+			);
+			path = "Picture Detail";
+			sourceTree = "<group>";
+		};
+		1FA9D7EB2121CB1B00B64F79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F3BBDFA211CB3C7005D1913 /* APOD.storyboard */,
+				1F3BBDF4211CAD1D005D1913 /* APODCoordinator.swift */,
+				1F3BBDFE211D055D005D1913 /* Picture Detail */,
+				1F3BBDFD211D03A3005D1913 /* DateList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FA9D7EC2121CB2100B64F79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9D7ED2121CB2F00B64F79 /* PhotoInteractor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F40E661256AA9EC034D12FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46D80FC9713237CDA4B17CD /* Pods-RxFlowAPOD.debug.xcconfig */,
+				49690BA14F24394A14379BC5 /* Pods-RxFlowAPOD.release.xcconfig */,
+				78E1296351AF2B7D9F884139 /* Pods-RxFlowAPODTests.debug.xcconfig */,
+				505854A85CE26E218E7A4A13 /* Pods-RxFlowAPODTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA099096AF5B06B9ED20A278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2C211255A2D47A3E6F26B /* Pods_RxFlowAPOD.framework */,
+				1BA420AEF06BFDE88669CEDE /* Pods_RxFlowAPODTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F2F1306211BEEB70012B809 /* Build configuration list for PBXNativeTarget "RxFlowAPOD" */;
 			buildPhases = (
+				374314228033092EE8AB6B89 /* [CP] Check Pods Manifest.lock */,
+				1F3BBDEB211C9C49005D1913 /* ShellScript */,
 				1F2F12E2211BEEB40012B809 /* Sources */,
 				1F2F12E3211BEEB40012B809 /* Frameworks */,
 				1F2F12E4211BEEB40012B809 /* Resources */,
+				78D3DD9C32B48206D4DCD00E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F2F1309211BEEB70012B809 /* Build configuration list for PBXNativeTarget "RxFlowAPODTests" */;
 			buildPhases = (
+				88E8108ED3FB3403491273D1 /* [CP] Check Pods Manifest.lock */,
 				1F2F12F9211BEEB70012B809 /* Sources */,
 				1F2F12FA211BEEB70012B809 /* Frameworks */,
 				1F2F12FB211BEEB70012B809 /* Resources */,
+				A2F87335F639D28CC74B506F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +309,9 @@
 			files = (
 				1F2F12F7211BEEB70012B809 /* LaunchScreen.storyboard in Resources */,
 				1F2F12F4211BEEB70012B809 /* Assets.xcassets in Resources */,
+				1F3BBDFB211CB4C0005D1913 /* APOD.storyboard in Resources */,
 				1F2F12EF211BEEB40012B809 /* Main.storyboard in Resources */,
+				1F3BBDFC211CB4C3005D1913 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +324,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F3BBDEB211C9C49005D1913 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\n";
+		};
+		374314228033092EE8AB6B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxFlowAPOD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D3DD9C32B48206D4DCD00E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxFlowAPOD/Pods-RxFlowAPOD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxNuke/RxNuke.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxNuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxFlowAPOD/Pods-RxFlowAPOD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E8108ED3FB3403491273D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxFlowAPODTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F87335F639D28CC74B506F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxFlowAPODTests/Pods-RxFlowAPODTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxFlowAPODTests/Pods-RxFlowAPODTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F2F12E2211BEEB40012B809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3BBE00211D05A7005D1913 /* DateListViewModel.swift in Sources */,
+				1F3BBDF5211CAD1D005D1913 /* APODCoordinator.swift in Sources */,
+				1FA9D7E82121AF7A00B64F79 /* DateListCoordinator.swift in Sources */,
+				1F3BBDEA211C9B49005D1913 /* AppCoordinator.swift in Sources */,
 				1F2F12F2211BEEB40012B809 /* RxFlowAPOD.xcdatamodeld in Sources */,
+				1F3BBDEF211CA6FE005D1913 /* DateListViewController.swift in Sources */,
+				1FA9D7EA2121C90000B64F79 /* PictureViewModel.swift in Sources */,
+				1F3BBDF8211CB358005D1913 /* SettingsCoordinator.swift in Sources */,
+				1F3BBDED211C9D0B005D1913 /* R.generated.swift in Sources */,
+				1F3BBDF1211CA70B005D1913 /* PictureViewController.swift in Sources */,
 				1F2F12EC211BEEB40012B809 /* ViewController.swift in Sources */,
+				1FA9D7E62121AF4200B64F79 /* PictureDetailCoordinator.swift in Sources */,
 				1F2F12EA211BEEB40012B809 /* AppDelegate.swift in Sources */,
+				1FA9D7EE2121CB2F00B64F79 /* PhotoInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2F1302211BEEB70012B809 /* RxFlowAPODTests.swift in Sources */,
+				1F3BBDE8211C93EC005D1913 /* DateGenerationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +599,7 @@
 		};
 		1F2F1307211BEEB70012B809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46D80FC9713237CDA4B17CD /* Pods-RxFlowAPOD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +618,7 @@
 		};
 		1F2F1308211BEEB70012B809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49690BA14F24394A14379BC5 /* Pods-RxFlowAPOD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +637,7 @@
 		};
 		1F2F130A211BEEB70012B809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E1296351AF2B7D9F884139 /* Pods-RxFlowAPODTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -417,6 +659,7 @@
 		};
 		1F2F130B211BEEB70012B809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505854A85CE26E218E7A4A13 /* Pods-RxFlowAPODTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
